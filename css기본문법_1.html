@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 핵심이론 선택자 적용 우선순위</title>
+    <style>
+        h1,
+        p {
+            color: red;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        p b {
+            color: blue;
+        }
+
+        .text {
+            color: orchid;
+        }
+
+        #text {
+            color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>조제 무리뉴 안토니오 콘테 누누산투</h1>
+    <p>토트넘 해리케인 에릭다이어 다빈손산체스
+        <b>굵은글씨</b>
+    </p>
+
+    <h1>겨울왕국</h1>
+    <h1 class="text">뮬란</h1>
+    <h1 id="text">토이스토리</h1>
+    <h1>모아나</h1>
+    <h1>라푼젤</h1>
+</body>
+
+</html>
