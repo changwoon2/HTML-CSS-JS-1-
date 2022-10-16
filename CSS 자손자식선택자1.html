@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS 자손선택자 vs 자식선택자, 부모요소 vs 자식요소</title>
+    <style>
+      .box {
+        border: 1px solid red;
+        width: 400px;
+        height: 400px;
+      }
+
+      .box > div {
+        border: 1px solid blue;
+        width: 200px;
+        height: 200px;
+        padding: 20px;
+      }
+
+      .box > div div {
+        width: 50px;
+        height: 50px;
+        background-color: #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>
