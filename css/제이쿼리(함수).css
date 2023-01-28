@@ -1,0 +1,19 @@
+a {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  background-color: #ddd;
+  width: 300px;
+  text-align: center;
+  padding: 5px;
+}
+
+div {
+  background-color: aquamarine;
+  height: 200px;
+  margin-top: 10px;
+  width: 300px;
+  text-align: center;
+  line-height: 200px;
+  display: none;
+}
